@@ -5,6 +5,6 @@ This is a basic http server. It redirect user to given zoom personal meeting lin
  - TODO
 
 ## TODO
- - [ ] Create basic http-server
- - [ ] Return 200 to /
+ - [x] Create basic http-server
+ - [x] Return 200 to /
  - [ ] Send 302 for /zoom
