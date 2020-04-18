@@ -7,4 +7,5 @@ This is a basic http server. It redirect user to given zoom personal meeting lin
 ## TODO
  - [x] Create basic http-server
  - [x] Return 200 to /
- - [ ] Send 302 for /zoom
+ - [x] Send 302 for /zoom
+ - [ ] setup nginx conf for reverse proxy
