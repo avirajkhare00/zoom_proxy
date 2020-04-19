@@ -34,7 +34,7 @@ jobs:
       run: go test -v .
     
     - name: Build
-      run: go build -o out/ .
+      run: mkdir out && go build -o out/ .
     
     - name: deploy binary to server
       uses: wlixcc/SFTP-Deploy-Action@v1.0
