@@ -40,7 +40,7 @@ jobs:
       uses: wlixcc/SFTP-Deploy-Action@v1.0
       with:
         username: 'root'
-        server: '165.22.217.58'
+        server: ''
         ssh_private_key: ${{ secrets.DIGITAL_OCEAN_KEY }}
         local_path: './out/*'
         remote_path: '/var/www/go-app'
