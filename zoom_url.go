@@ -1,6 +1,6 @@
 package main
 
-const zoomPersonalMeetingURL = "https://gojek.zoom.us/my/avirajkhare00"
+const zoomPersonalMeetingURL = ""
 
 func getZoomMeetingURL() string {
 	return zoomPersonalMeetingURL
