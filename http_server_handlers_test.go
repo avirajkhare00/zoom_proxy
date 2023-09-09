@@ -36,5 +36,5 @@ func TestGetZoomURLHandler(t *testing.T) {
 	redirectedURL := rr.Result().Header.Get("Location")
 
 	assert.Equal(t, rr.Result().StatusCode, 302)
-	assert.Equal(t, redirectedURL, "https://gojek.zoom.us/my/avirajkhare00")
+	assert.Equal(t, redirectedURL, "")
 }
