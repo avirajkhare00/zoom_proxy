@@ -36,12 +36,12 @@ jobs:
     - name: Build
       run: mkdir out && go build -o out/ .
     
-    - name: deploy binary to server
-      uses: wlixcc/SFTP-Deploy-Action@v1.0
-      with:
-        username: 'root'
-        server: ''
-        ssh_private_key: ${{ secrets.DIGITAL_OCEAN_KEY }}
-        local_path: './out/*'
-        remote_path: '/var/www/go-app'
-        args: '-o ConnectTimeout=5'
+    # - name: deploy binary to server
+    #  uses: wlixcc/SFTP-Deploy-Action@v1.0
+    #  with:
+    #    username: 'root'
+    #    server: ''
+    #    ssh_private_key: ${{ secrets.DIGITAL_OCEAN_KEY }}
+    #    local_path: './out/*'
+    #    remote_path: '/var/www/go-app'
+    #    args: '-o ConnectTimeout=5'
